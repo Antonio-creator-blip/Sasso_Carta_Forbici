@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 224, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    ;
+}
+
+#computerScelta {
+    font-size: 60px;
+}
+
+#vincitore {
+    font-size: 30px;
+}
+
+#winnergame {
+    font-size: 50px;
+}
+
+#tick_sasso {
+    display: none;
+}
+
+#tick_forbici {
+    display: none;
+}
+
+#tick_paper {
+    display: none;
+}
+
+#bottoni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tabella {
+    flex-direction: row;
+    display: flex;
+}
+
+#game {
+    margin-right: 50px;
+}
+
+
+/* Make the image responsive */
+
+#bottoni .container2 img {
+    width: 150px;
+}
+
+#bottoni .container img {
+    width: 150px;
+}
+
+.container2 img {
+    width: 100%;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the button and place it in the middle of the container/image */
+
+.container .btn {
+    position: relative;
+    bottom: 50px;
+    right: 75px;
+    font-weight: 700;
+    background-color: rgba(169, 169, 169, 1.0);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: rgba(192, 192, 192, 0);
+    color: rgba(192, 192, 192, 0);
+}

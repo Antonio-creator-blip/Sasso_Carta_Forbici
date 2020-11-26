@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morra cinese</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <!--<div id="bottoni">
+        <img src="scissors.svg" alt="sasso">
+        <button onclick="sceltaUtente('forbici')" class="btn">Forbici</button>
+        <img src="scissors.svg" alt="sasso">
+        <button onclick="sceltaUtente('forbici')" class="btn">Forbici</button>
+        <img src="scissors.svg" alt="sasso">
+        <button onclick="sceltaUtente('forbici')" class="btn">Forbici</button>
+    </div>-->
+    <h1>Il computer ha scelto: <span id="computerScelta"></span></h1>
+    <div id="scelta_pc">
+
+    </div>
+
+    <div id="bottoni">
+        <div class="container">
+            <img id="sasso_user" src="rock.svg" alt="sasso">
+            <button onclick="sceltaUtente('Sasso')" class="btn">Sasso</button>
+        </div>
+        <div class="container">
+            <img id="carta_user" src="paper.svg" alt="sasso">
+            <button onclick="sceltaUtente('Carta')" class="btn">Carta</button>
+        </div>
+        <div class="container">
+            <img id="forbici_user" src="scissors.svg" alt="sasso">
+            <button onclick="sceltaUtente('Forbici')" class="btn">Forbici</button>
+        </div>
+    </div>
+    <h1 id="vincitore"> Vincitore del game: <span id="winnergame"></span></h1>
+    <div id="tabella">
+        <div id="game">
+            <h2>Computer : <span id="partite_computer">0</span> game</h2>
+            <h2>User : <span id="partite_user">0</span> game</h2>
+        </div>
+        <div id="set">
+            <h2>Computer : <span id="set_computer">0</span> set</h2>
+            <h2>User : <span id="set_user">0</span> set</h2>
+        </div>
+    </div>
+
+    <h1 id="vincitore"> <span id="winneris"></span></h1>
+</body>
+
+</html>
